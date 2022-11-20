@@ -12,5 +12,5 @@
 // Console.WriteLine(result);
 
 Console.WriteLine("Введите трехзначное число");
-Int32 nomber = Convert.ToInt32(Console.ReadLine());
+Int32 nomber = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 Console.WriteLine(nomber%10);
